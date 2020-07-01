@@ -1,0 +1,109 @@
+<html>
+<title>Star Wars Kisokos</title>
+<meta charset="UTF-8">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+
+  
+<link rel="stylesheet" href="fooldal.css">
+</head>
+<body>
+
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="./kezdolap"><span class="menuszoveg" id="menuhatter">Kezdőlap</span> </a></li>
+    </div>
+		
+		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+	  
+		<li><a href="./szereplok"><span class="menuszoveg" id="menuhatter">Szereplők</span> </a></li>
+ 		<li><a href="./bolygok"><span class="menuszoveg" id="menuhatter">Bolygók</span> </a></li>
+		<li><a href="./jarmuvek"><span class="menuszoveg" id="menuhatter">Járművek</span> </a></li>
+		<li><a href="./targyak"><span class="menuszoveg" id="menuhatter">Tárgyak</span> </a></li>
+		<li><a href="./elolenyek"><span class="menuszoveg" id="menuhatter">Lények</span> </a></li>
+		<li><a href="./novenyek"><span class="menuszoveg" id="menuhatter">Növények</span> </a></li>
+		<li><a href="./forum"><span class="menuszoveg" id="menuhatter">Fórum</span> </a></li>
+		
+		 <ul class="nav navbar-nav navbar-right">
+       
+      <li><a href="#" data-toggle="modal" data-target="#register-modal"><span class="glyphicon glyphicon-user"></span> <span class="menuszoveg" id="menuhatter">Regisztráció</span> </a></li>
+      <li><a href="#" data-toggle="modal" data-target="#login-modal"><span class="glyphicon glyphicon-log-in"></span> <span class="menuszoveg" id="menuhatter">Belépés</span> </a></li>
+	  <!--<button type="button" class="btn"><a href="./fooldal"><span class="menuszoveg" id="menuhatter">Főoldal</a></button><li>
+	<button type="button" class="btn"><a href="./szereplok"><span class="menuszoveg" id="menuhatter">Szereplők</a></button><li>
+	<button type="button" class="btn"><a href="./jarmuvek"><span class="menuszoveg" id="menuhatter">Járművek</a></button><li>
+	<button type="button" class="btn"><a href="./fajok"><span class="menuszoveg" id="menuhatter">Fajok</a></button><li>
+    <button type="button" class="btn"><li><a href="#" data-toggle="modal" data-target="#register-modal"><span class="glyphicon glyphicon-user"></span> <span class="menuszoveg" id="menuhatter">Regisztráció</span> </a></li></button><li>
+    <button type="button" class="btn"><li><a href="#" data-toggle="modal" data-target="#login-modal"><span class="glyphicon glyphicon-log-in"></span> <span class="menuszoveg" id="menuhatter">Belépés</span> </a></li></button><li>
+     
+
+    </div>
+	 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+
+
+
+  <ul class="nav navbar-nav navbar-right">
+       
+   
+      </ul>
+    </div><!-- /.navbar-collapse -->
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+<div class="modal fade" id="login-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
+    	  <div class="modal-dialog">
+				<div class="loginmodal-container">
+					<h1>Bejelentkezés</h1><br>
+				  
+					<input type="text" name="user" placeholder="Felhasználónév">
+					<input type="password" name="pass" placeholder="Jelszó">
+					<input type="submit" id="logingomb" name="login" class="login loginmodal-submit" value="Belépés">
+				 
+					
+				  <div class="login-help">
+					<a href="" id="reg">Regisztráció</a> 
+				  </div>
+				</div>
+			</div>
+		  </div>
+
+<div class="modal fade" id="register-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
+    	  <div class="modal-dialog">
+				<div class="loginmodal-container">
+					<h1>Regisztráció</h1><br>
+				  
+					<input type="text" id="reg_felh" placeholder="Felhasználónév">
+					<input type="password" id="reg_jelszo" placeholder="Jelszó">
+					<input type="password" id="reg_jelszo_megegyszer" placeholder="Jelszó még egyszer">
+
+					<input type="submit" id="registergomb"  class="login loginmodal-submit" value="Regisztráció">
+				 
+					<div id="hibaszoveg">&nbsp;</div>
+				  
+				</div>
+			</div>
+		  </div>		  
+		  
+
+
+</body>
+</html>
