@@ -42,16 +42,7 @@ $(document).ready(function(){
 				modalisszoveg+='<br><center><img src="kepek/'+tomb[0].szereplo_kep+'" style="width:80%"></center><br>';
 				modalisszoveg+='<bottom>'+tomb[0].szereplo_leiras+'</bottom><br>';
 				modalisszoveg+='<br>';
-				modalisszoveg+='A festmény ára: '+tomb[0].festmeny_ar+' Ft';
 				modalisszoveg+='<br>';
-				modalisszoveg+='<br>';
-				modalisszoveg+='Készítés dátuma: '+tomb[0].festmeny_datum;
-				modalisszoveg+='<br>';
-				modalisszoveg+='<br>';
-				if(tomb[0].festmeny_eladva==0){
-				modalisszoveg+='Festmény állapota: Megvásárolható';
-				modalisszoveg+='<br>';
-				modalisszoveg+='<button type="button" class="btn btn-default" id="megrendeles" value="'+tomb[0].festmeny_kep+'">Megrendelés</button>';
 				modalisszoveg+='<br>';
 				modalisszoveg+='<br>';
 				modalisszoveg+='<ol>';
